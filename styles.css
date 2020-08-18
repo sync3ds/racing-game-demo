@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Jura');
+
+html, body { width: 100%; height: 100%; }
+body { margin: 0; overflow: hidden; font-family: 'Jura', sans-serif; }
+
+#loadingScreen { position: fixed; height: 100%; width: 100%; display: flex; margin-top: 0; align-items: center; justify-content: center; background-color: #000000; z-index: 1000; transition: all 0.5s ease; }
+#loadingScreen.fade-out { margin-top: -100%; }
+.spinner { margin: 100px auto; width: 50px; height: 40px; text-align: center; font-size: 10px; }
+.spinner > div { background-color: #ffffff; height: 100%; width: 6px; display: inline-block;
+	-webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+	animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+.spinner .rect2 { -webkit-animation-delay: -1.1s; animation-delay: -1.1s; }
+.spinner .rect3 { -webkit-animation-delay: -1.0s; animation-delay: -1.0s; }
+.spinner .rect4 { -webkit-animation-delay: -0.9s; animation-delay: -0.9s; }
+.spinner .rect5 { -webkit-animation-delay: -0.8s; animation-delay: -0.8s; }
+
+#debugger { position: absolute; top: 60px; left: 10px; padding: 5px; background-color: #fff; font-size: 12px; }
+
+#blocker { position: absolute; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); }
+#instructions { width: 100%; height: 100%; display: -webkit-box; display: -moz-box; display: box; -webkit-box-orient: horizontal; -moz-box-orient: horizontal; box-orient: horizontal; -webkit-box-pack: center; -moz-box-pack: center; box-pack: center; -webkit-box-align: center; -moz-box-align: center; box-align: center; color: #ffffff;	text-align: center; font-family: Arial; font-size: 14px; line-height: 24px; cursor: pointer; }
+
+@-webkit-keyframes sk-stretchdelay {
+	0%, 40%, 100% { -webkit-transform: scaleY(0.4) }
+	20% { -webkit-transform: scaleY(1.0); background-color: #168AA2; }
+}
+@keyframes sk-stretchdelay {
+	0%, 40%, 100% {
+		transform: scaleY(0.4);
+		-webkit-transform: scaleY(0.4);
+	}  20% {
+		transform: scaleY(1.0);
+		-webkit-transform: scaleY(1.0);
+		background-color: #168AA2;
+	}
+}

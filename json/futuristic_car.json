@@ -1,0 +1,29 @@
+{
+	"file": "futuristic_car.glb",
+	"type": "vehicle",
+	"materialOverride": {
+		"shininess": 5,
+		"alphaMap": null
+	},
+	"physics": {
+		"mass": 150,
+		"engineForce": 500,
+		"handbrakeForce": 1000000,
+		"maxSpeed": 100,
+		"steeringValue": 0.25,
+		"wheels": {
+			"suspensionStiffness": 30,
+			"suspensionRestLength": 0.35,
+			"frictionSlip": 4,
+			"dampingRelaxation": 2.3,
+			"dampingCompression": 2.4,
+			"maxSuspensionForce": 1000,
+			"rollInfluence": 0.2,
+			"customSlidingRotationalSpeed": -30
+		}
+	},
+	"camera": {
+		"distanceFromFloor": 2.0,
+		"targetRadius": 10
+	}
+}

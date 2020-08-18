@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+		<title>Game Engine</title>
+		<link type="text/css" rel="stylesheet"  href="styles.css">
+	</head>
+
+	<body>
+
+		<div id="debugger"></div>
+
+		<section id="loadingScreen">
+			<div class="spinner">
+				<div class="rect1"></div>
+				<div class="rect2"></div>
+				<div class="rect3"></div>
+				<div class="rect4"></div>
+				<div class="rect5"></div>
+			</div>
+		</section>
+
+		<script type="module">
+			import { GameEngine } from "./libs/engine.min.js";
+
+			let gameEngine = new GameEngine();
+			gameEngine.init('json/level1.json');
+
+		</script>
+	</body>
+</html>

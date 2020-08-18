@@ -1,0 +1,31 @@
+{
+
+	"objects": [
+		{
+			"name": "Arena",
+			"reference": "arena",
+			"startPos": { "x": 0, "y": 0, "z": 0 },
+			"startRot": { "x": 0, "y": 0, "z": 0 }
+		},
+		{
+			"player": true,
+			"name": "Car",
+			"reference": "temp_car",
+			"startPos": { "x": 5, "y": 10, "z": 0 },
+			"startRot": { "x": 0, "y": 180, "z": 0 }
+		},
+		{
+			"name": "Futuristic Car",
+			"reference": "futuristic_car",
+			"status": "hidden",
+			"startPos": { "x": -5, "y": 10, "z": 0 },
+			"startRot": { "x": 0, "y": 180, "z": 0 }
+		}
+	],
+
+	"environment": {
+		"envMap": "moonless_golf",
+		"backgroundMap": "night1"
+	}
+
+}

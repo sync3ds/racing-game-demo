@@ -1,0 +1,11 @@
+{
+	"file": "temp_arena.glb",
+	"type": "static",
+	"materialOverride": {
+		"reflectivity": 0,
+		"side": 0
+	},
+	"physics": {
+		"friction": 2
+	}
+}
