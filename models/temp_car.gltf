@@ -101,6 +101,9 @@
             ]
         },
         {
+            "extras" : {
+                "envMap" : "true"
+            },
             "mesh" : 4,
             "name" : "Roof",
             "translation" : [
