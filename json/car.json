@@ -2,23 +2,22 @@
 	"file": "carUpdate.glb",
 	"type": "vehicle",
 	"materialOverride": {
-		"shininess": 50,
 		"alphaMap": null
 	},
 	"physics": {
 		"mass": 150,
 		"engineForce": 500,
-		"handbrakeForce": 1000000,
+		"handbrakeForce": 100,
 		"maxSpeed": 100,
-		"steeringValue": 0.35,
+		"steeringValue": 0.25,
 		"wheels": {
 			"suspensionStiffness": 30,
-			"suspensionRestLength": 0.35,
+			"suspensionRestLength": 0.55,
 			"frictionSlip": 4,
 			"dampingRelaxation": 2.3,
 			"dampingCompression": 2.4,
 			"maxSuspensionForce": 1000,
-			"rollInfluence": 0.2,
+			"rollInfluence": 0.02,
 			"customSlidingRotationalSpeed": -30
 		}
 	},
