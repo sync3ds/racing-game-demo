@@ -7,7 +7,7 @@
 	"physics": {
 		"mass": 150,
 		"engineForce": 500,
-		"handbrakeForce": 100,
+		"handbrakeForce": 250,
 		"maxSpeed": 100,
 		"steeringValue": 0.25,
 		"wheels": {
