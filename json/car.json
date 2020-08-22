@@ -1,5 +1,5 @@
 {
-	"file": "carUpdate.glb",
+	"file": "car.glb",
 	"type": "vehicle",
 	"materialOverride": {
 		"alphaMap": null

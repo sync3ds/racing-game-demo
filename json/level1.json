@@ -11,14 +11,14 @@
 			"player": true,
 			"name": "Car1",
 			"reference": "car",
-			"startPos": { "x": 5, "y": 0, "z": 0 },
+			"startPos": { "x": 5, "y": 2, "z": 0 },
 			"startRot": { "x": 0, "y": 90, "z": 0 }
 		},
 		{
 			"name": "Car2",
-			"reference": "temp_car",
+			"reference": "car",
 			"status": "show",
-			"startPos": { "x": -5, "y": 0, "z": 5 },
+			"startPos": { "x": -5, "y": 2, "z": 5 },
 			"startRot": { "x": 0, "y": 90, "z": 0 }
 		}
 	],
