@@ -1,28 +1,30 @@
 {
-	"file": "car.glb",
+	"file": "car2.glb",
 	"type": "vehicle",
 	"materialOverride": {
 		"alphaMap": null
 	},
 	"physics": {
-		"mass": 150,
-		"engineForce": 500,
+		"mass": 250,
+		"engineForce": 800,
 		"handbrakeForce": 250,
 		"maxSpeed": 100,
 		"steeringValue": 0.25,
+		"bodyOffset": 1.2,
 		"wheels": {
 			"suspensionStiffness": 30,
 			"suspensionRestLength": 0.55,
 			"frictionSlip": 4,
-			"dampingRelaxation": 2.3,
-			"dampingCompression": 2.4,
+			"dampingRelaxation": 15,
+			"dampingCompression": 6.4,
 			"maxSuspensionForce": 1000,
 			"rollInfluence": 0.02,
 			"customSlidingRotationalSpeed": -30
 		}
 	},
 	"camera": {
-		"distanceFromFloor": 2.5,
-		"targetRadius": 13
+		"distanceFromFloor": 5,
+		"targetRadius": 20,
+		"lookAtOffset": 2
 	}
 }
