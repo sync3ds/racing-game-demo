@@ -2,8 +2,7 @@
 	"file": "dome.glb",
 	"type": "static",
 	"materialOverride": {
-		"reflectivity": 0,
-		"side": 0
+		"reflectivity": 0
 	},
 	"physics": {
 		"friction": 2
