@@ -23,8 +23,8 @@
 		}
 	},
 	"camera": {
-		"distanceFromFloor": 2.5,
-		"targetRadius": 13,
-		"lookAtOffset": 0
+		"distanceFromFloor": 3.5,
+		"targetRadius": 15,
+		"lookAtOffset": 2
 	}
 }
