@@ -6,8 +6,8 @@
 	},
 	"physics": {
 		"mass": 150,
-		"engineForce": 500,
-		"handbrakeForce": 250,
+		"engineForce": 300,
+		"handbrakeForce": 100,
 		"maxSpeed": 100,
 		"steeringValue": 0.25,
 		"bodyOffset": 1.1,
@@ -25,6 +25,6 @@
 	"camera": {
 		"distanceFromFloor": 3.5,
 		"targetRadius": 15,
-		"lookAtOffset": 2
+		"lookAtOffset": 3
 	}
 }
