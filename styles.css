@@ -2,7 +2,6 @@
 
 html, body { width: 100%; height: 100%; background-color: #000; }
 body { margin: 0; overflow: hidden; font-family: 'Jura', sans-serif; }
-body.ready { cursor: none; }
 
 #loadingScreen { position: fixed; height: 100%; width: 100%; display: flex; margin-top: 0; align-items: center; justify-content: center; background-color: #000000; z-index: 1000; transition: all 0.5s ease; }
 #loadingScreen.fade-out { margin-top: -100%; }
@@ -14,7 +13,6 @@ body.ready { cursor: none; }
 .spinner .rect5 { -webkit-animation-delay: -0.8s; animation-delay: -0.8s; }
 
 #debugger { position: absolute; z-index: 5; top: 60px; left: 10px; padding: 5px; background-color: #fff; font-size: 12px; }
-
 #stage, #blocker { width: 1600px; max-width: 100%; height: 900px; max-height: 100%; position: relative; z-index: 1; left: 50%; top: 50%; transform: translate(-50%, -50%); }
 #blocker { position: absolute; z-index: 15; background-color: rgba(0,0,0,0.8); display: block; }
 
