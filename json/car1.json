@@ -5,8 +5,8 @@
 		"alphaMap": null
 	},
 	"physics": {
-		"mass": 150,
-		"engineForce": 300,
+		"mass": 250,
+		"engineForce": 600,
 		"handbrakeForce": 100,
 		"maxSpeed": 100,
 		"steeringValue": 0.25,

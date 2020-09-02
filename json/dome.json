@@ -2,7 +2,12 @@
 	"file": "dome.glb",
 	"type": "static",
 	"materialOverride": {
-		"reflectivity": 0
+		"reflectivity": 0,
+		"side": 1
+	},
+	"objectOverride": {
+		"castShadow": false,
+		"receiveShadow": false
 	},
 	"physics": {
 		"friction": 2
