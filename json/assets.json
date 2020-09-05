@@ -1,0 +1,41 @@
+{
+
+	"places": [
+		{
+			"name": "Arena 1",
+			"uid": "arena1",
+			"objects": [
+				{
+					"name": "Arena",
+					"reference": "environment/arena",
+					"startPos": { "x": 0, "y": 0, "z": 0 },
+					"startRot": { "x": 0, "y": 0, "z": 0 }
+				},
+				{
+					"name": "Dome",
+					"reference": "environment/dome",
+					"startPos": { "x": 0, "y": 0, "z": 0 },
+					"startRot": { "x": 0, "y": 0, "z": 0 }
+				}
+			],
+			"scene": {
+				"envMap": "kloppenheim_02",
+				"backgroundMap": "mountain1"
+			}
+		}
+	],
+
+	"vehicles": [
+		{
+			"name": "Car1",
+			"uid": "car1",
+			"reference": "vehicles/car1"
+		},
+		{
+			"name": "Car2",
+			"uid": "car2",
+			"reference": "vehicles/car2"
+		}
+	]
+
+}
