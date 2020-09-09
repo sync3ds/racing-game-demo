@@ -10,7 +10,7 @@
 		"handbrakeForce": 100,
 		"maxSpeed": 100,
 		"steeringValue": 0.25,
-		"bodyOffset": 1.1,
+		"bodyOffset": -1.5,
 		"wheels": {
 			"suspensionStiffness": 30,
 			"suspensionRestLength": 0.55,

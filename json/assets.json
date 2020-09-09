@@ -22,6 +22,22 @@
 				"envMap": "kloppenheim_02",
 				"backgroundMap": "mountain1"
 			}
+		},
+		{
+			"name": "Arena Test",
+			"uid": "arena-test",
+			"objects": [
+				{
+					"name": "Arena",
+					"reference": "environment/arena-test",
+					"startPos": { "x": 0, "y": 0.25, "z": 0 },
+					"startRot": { "x": 0, "y": 0, "z": 0 }
+				}
+			],
+			"scene": {
+				"envMap": "kloppenheim_02",
+				"backgroundMap": "mountain1"
+			}
 		}
 	],
 
