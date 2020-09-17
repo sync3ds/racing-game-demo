@@ -5,21 +5,18 @@
 		"alphaMap": null
 	},
 	"physics": {
-		"mass": 250,
-		"engineForce": 600,
-		"handbrakeForce": 100,
+		"mass": 50,
+		"engineForce": 200,
+		"handbrakeForce": 50,
 		"maxSpeed": 100,
-		"steeringValue": 0.25,
-		"bodyOffset": -1.5,
+		"steeringValue": 0.35,
 		"wheels": {
-			"suspensionStiffness": 30,
-			"suspensionRestLength": 0.55,
-			"frictionSlip": 4,
-			"dampingRelaxation": 2.3,
-			"dampingCompression": 2.4,
-			"maxSuspensionForce": 1000,
-			"rollInfluence": 0.02,
-			"customSlidingRotationalSpeed": -30
+			"suspensionStiffness": 14,
+			"suspensionRestLength": 0.35,
+			"frictionSlip": 2.0,
+			"dampingRelaxation": 2,
+			"dampingCompression": 2,
+			"rollInfluence": 0.1
 		}
 	},
 	"camera": {
